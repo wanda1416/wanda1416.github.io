@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "notice_version": 2,
-  "updated_at": "2026-08-24T10:57:47Z",
+  "notice_version": 3,
+  "updated_at": "2026-08-24T13:00:00Z",
   "notices": [
     {
       "id": "notice-0001-pc-support-0.5.1",
@@ -12,6 +12,17 @@
       "max_app_version_exclusive": "0.5.1",
       "body": "## PC 端已支持,请升级至 0.5.1 及以上版本\n\n律匠 PC 端已在 0.5.1 版本中正式支持。升级前请详细阅读[快速开始](https://github.com/wanda1416/lvjiang/blob/master/docs/60-userguide/01-quick-start.md)与 [v0.5.1 更新日志](https://github.com/wanda1416/lvjiang/blob/master/docs/50-releases/v0.5.1.md),了解新功能与已知限制。\n\n**请勿继续使用低于 0.5.1 的版本运行。** 低于 0.5.1 版本提交的 Bug 反馈不予受理,请先升级到 0.5.1 或以上版本、复现问题后再提交反馈。",
       "url": "https://github.com/wanda1416/lvjiang/blob/master/docs/60-userguide/01-quick-start.md",
+      "active": true
+    },
+    {
+      "id": "notice-0002-empty-entry-edit-fail-0.5.2",
+      "level": "warning",
+      "title": "0.5.2 已知问题：空档案条目无法直接编辑",
+      "published_at": "2026-08-24T13:00:00Z",
+      "min_app_version": "0.5.2",
+      "max_app_version_exclusive": "0.5.3",
+      "body": "## 空档案条目编辑失败\n\n0.5.2 版本中，当某条档案数据为空（数据库中不存在对应记录）时，直接编辑该条目会静默失败，写入不会生效。\n\n### 临时解决方案\n\n请**右键点击该条目**，选择「**覆写**」，强制写入一条非空数据。之后即可正常编辑该条目。\n\n该问题已在后续版本中修复，升级后即可彻底解决。",
+      "url": "",
       "active": true
     }
   ]
