@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
-  "notice_version": 1,
-  "updated_at": "2026-08-24T06:07:41Z",
+  "notice_version": 2,
+  "updated_at": "2026-08-24T10:57:47Z",
   "notices": [
     {
-      "id": "test-20260824-init",
-      "level": "info",
-      "title": "公告系统测试消息",
-      "published_at": "2026-08-24T06:07:41Z",
+      "id": "notice-0001-pc-support-0.5.1",
+      "level": "warning",
+      "title": "正式公告第一号:PC 端已支持,请升级至 0.5.1 及以上版本",
+      "published_at": "2026-08-24T10:57:47Z",
       "min_app_version": "",
-      "max_app_version_exclusive": "",
-      "body": "## 这是一条测试公告\n\n用于验证公告系统是否正常工作，可忽略。",
-      "url": "",
+      "max_app_version_exclusive": "0.5.1",
+      "body": "## PC 端已支持,请升级至 0.5.1 及以上版本\n\n律匠 PC 端已在 0.5.1 版本中正式支持。升级前请详细阅读[快速开始](https://github.com/wanda1416/lvjiang/blob/master/docs/60-userguide/01-quick-start.md)与 [v0.5.1 更新日志](https://github.com/wanda1416/lvjiang/blob/master/docs/50-releases/v0.5.1.md),了解新功能与已知限制。\n\n**请勿继续使用低于 0.5.1 的版本运行。** 低于 0.5.1 版本提交的 Bug 反馈不予受理,请先升级到 0.5.1 或以上版本、复现问题后再提交反馈。",
+      "url": "https://github.com/wanda1416/lvjiang/blob/master/docs/60-userguide/01-quick-start.md",
       "active": true
     }
   ]
