@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "notice_version": 1,
+  "updated_at": "2026-08-24T06:07:41Z",
+  "notices": [
+    {
+      "id": "test-20260824-init",
+      "level": "info",
+      "title": "公告系统测试消息",
+      "published_at": "2026-08-24T06:07:41Z",
+      "min_app_version": "",
+      "max_app_version_exclusive": "",
+      "body": "## 这是一条测试公告\n\n用于验证公告系统是否正常工作，可忽略。",
+      "url": "",
+      "active": true
+    }
+  ]
+}
