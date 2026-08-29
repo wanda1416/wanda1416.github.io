@@ -1,6 +1,31 @@
 {
   "schema_version": 1,
-  "config_version": 1,
-  "updated_at": "2026-08-27T17:34:12Z",
-  "files": []
+  "config_version": 2,
+  "updated_at": "2026-08-29T17:24:45Z",
+  "files": [
+    {
+      "rel_path": "layouts/桌面布局/waiguan_yigui.json",
+      "url": "https://wanda1416.github.io/lvjiang/config/remote/layouts/%E6%A1%8C%E9%9D%A2%E5%B8%83%E5%B1%80/waiguan_yigui.json",
+      "sha256": "a349e6591648c1f297755c497bc51155e043f5e2b12b2bb219bd2bc8bc40cea2",
+      "content_version": 2,
+      "min_app_version": "0.8.0",
+      "max_app_version_exclusive": "0.8.1"
+    },
+    {
+      "rel_path": "layouts/默认布局/waiguan_yigui.json",
+      "url": "https://wanda1416.github.io/lvjiang/config/remote/layouts/%E9%BB%98%E8%AE%A4%E5%B8%83%E5%B1%80/waiguan_yigui.json",
+      "sha256": "64b56388becf994c491c233c525fca972f7c86ae294e0dcf8c962980b49b2f19",
+      "content_version": 2,
+      "min_app_version": "0.8.0",
+      "max_app_version_exclusive": "0.8.1"
+    },
+    {
+      "rel_path": "scenes/waiguan_yigui.yaml",
+      "url": "https://wanda1416.github.io/lvjiang/config/remote/scenes/waiguan_yigui.yaml",
+      "sha256": "943593ea0daab83ebaee0ea178a35e4c92339fee5c734388dd646b3655c3a7d0",
+      "content_version": 2,
+      "min_app_version": "0.8.0",
+      "max_app_version_exclusive": "0.8.1"
+    }
+  ]
 }
