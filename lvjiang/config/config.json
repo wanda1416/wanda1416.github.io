@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "config_version": 2,
-  "updated_at": "2026-08-29T17:24:45Z",
+  "config_version": 3,
+  "updated_at": "2026-09-23T20:30:50Z",
   "files": [
     {
       "rel_path": "layouts/桌面布局/waiguan_yigui.json",
@@ -26,6 +26,14 @@
       "content_version": 2,
       "min_app_version": "0.8.0",
       "max_app_version_exclusive": "0.8.1"
+    },
+    {
+      "rel_path": "yysls/game_config/seasons.yaml",
+      "url": "https://wanda1416.github.io/lvjiang/config/remote/yysls/game_config/seasons.yaml",
+      "sha256": "59c33c6db39a4356777ce6da045ddaa49a45ffc76718e7a3f65a3cea03c51755",
+      "content_version": 2,
+      "min_app_version": "0.13.1",
+      "max_app_version_exclusive": "0.14.0"
     }
   ]
 }
