@@ -1,19 +1,8 @@
 {
   "schema_version": 1,
-  "notice_version": 5,
-  "updated_at": "2026-10-08T01:56:00Z",
+  "notice_version": 6,
+  "updated_at": "2026-10-08T02:12:00Z",
   "notices": [
-    {
-      "id": "notice-0003-nanlu-season-config-0.13.0",
-      "level": "warning",
-      "title": "南吕新赛季配置已上线，请升级并重启",
-      "published_at": "2026-09-23T20:42:23Z",
-      "min_app_version": "0.12.0",
-      "max_app_version_exclusive": "",
-      "body": "## 南吕新赛季配置已上线\n\n律匠已增加南吕新赛季配置，暂时沿用 110 级装备属性。\n\n**请先升级到 0.13.0 及以上版本。** 如果你已经使用 0.13.0 及以上版本，可直接进行下一步。\n\n在看到本公告后，请完整退出律匠并立即重新启动一次，使已下载的新赛季配置生效。如果你刚完成版本升级，请先启动一次新版本，然后再完整退出并重新启动。",
-      "url": "",
-      "active": true
-    },
     {
       "id": "notice-0004-windows-false-positive-0.13.13",
       "level": "warning",
@@ -23,6 +12,17 @@
       "max_app_version_exclusive": "",
       "body": "## Windows 可能把 0.13.13 报成木马\n\n升级到 0.13.13 后，Windows Defender 可能把 `lvjiang.exe` 报成 `Trojan:Win32/Bearfoos.A!ml`。\n\n**这是误报。** 检测名末尾的 `!ml` 表示它来自机器学习模型的自动判定，不是发现了实际的恶意行为。PyInstaller 打包的 Python 程序经常撞上这类通用误报，尤其是刚发布、下载量很少又没有代码签名的新版本——上一版 0.13.12 刚放出来时也处在同样的窗口期。\n\n判断依据都可以自己验证：\n\n- 源码全部公开：https://github.com/wanda1416/lvjiang\n- 发布包由 GitHub Actions 从打标签的源码自动构建上传，不经过任何人的电脑，构建流程本身也在仓库里\n- 每个版本都附 `SHA256SUMS.txt`，可核对下载到的文件\n- 0.13.13 与未被报毒的 0.13.12 相比，可执行代码部分（PE 的 `.text` 段）字节完全相同，变的只是打包进去的 Python 代码\n- 打包时关闭了 UPX，没有加壳、混淆，也不会下载执行任何外部程序\n\n### 怎么处理\n\n先确认文件是官方版本，在命令提示符里执行 `certutil -hashfile \"%LocalAppData%\\Programs\\律匠\\lvjiang.exe\" SHA256`，应当得到 `6f3c67adf381a7ec5cf3bf8efe2545d45e97cef61a16f574e6d009b9d3047131`。安装包和便携版 zip 的校验和见 Release 页的 `SHA256SUMS.txt`。对不上就别运行，请重新从 GitHub Release 下载，不要使用第三方网盘或「绿色版」。\n\n确认无误后，打开「Windows 安全中心」→「病毒和威胁防护」→「保护历史记录」，找到对应条目选「允许在设备上」；文件已被删除的话重新安装一次。如果反复提示，可以在「管理设置」→「排除项」里把安装目录加进去，代价是该目录不再被扫描。\n\n### 说明\n\n这是个免费开源的个人项目，不会购买代码签名证书，也不会逐个版本提交误报申诉。所以以后的新版本仍可能出现同样的提示，处理方式一样。介意的话，可以等版本发布一段时间、下载量上来之后再升级。",
       "url": "https://github.com/wanda1416/lvjiang/releases/tag/0.13.13",
+      "active": true
+    },
+    {
+      "id": "notice-0003-nanlu-season-config-0.13.0",
+      "level": "warning",
+      "title": "南吕新赛季配置已上线，请升级并重启",
+      "published_at": "2026-09-23T20:42:23Z",
+      "min_app_version": "0.12.0",
+      "max_app_version_exclusive": "",
+      "body": "## 南吕新赛季配置已上线\n\n律匠已增加南吕新赛季配置，暂时沿用 110 级装备属性。\n\n**请先升级到 0.13.0 及以上版本。** 如果你已经使用 0.13.0 及以上版本，可直接进行下一步。\n\n在看到本公告后，请完整退出律匠并立即重新启动一次，使已下载的新赛季配置生效。如果你刚完成版本升级，请先启动一次新版本，然后再完整退出并重新启动。",
+      "url": "",
       "active": true
     }
   ]
