@@ -1,15 +1,6 @@
 {
   "schema_version": 1,
-  "config_version": 4,
-  "updated_at": "2026-10-08T02:14:00Z",
-  "files": [
-    {
-      "rel_path": "yysls/game_config/seasons.yaml",
-      "url": "https://wanda1416.github.io/lvjiang/config/remote/yysls/game_config/seasons.yaml",
-      "sha256": "59c33c6db39a4356777ce6da045ddaa49a45ffc76718e7a3f65a3cea03c51755",
-      "content_version": 2,
-      "min_app_version": "0.13.0",
-      "max_app_version_exclusive": "0.14.0"
-    }
-  ]
+  "config_version": 5,
+  "updated_at": "2026-10-08T02:20:00Z",
+  "files": []
 }
