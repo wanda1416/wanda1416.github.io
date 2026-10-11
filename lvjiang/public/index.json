@@ -1,4 +1,1 @@
-{
-  "schema_version": 1,
-  "series": {}
-}
+{"schema_version":1,"series":{"0.15.0":{"manifest":"v0.15.0/r1/manifest.json","revision":1,"sha256":"7db90aa7b67e5c442dc60e248551e32b9c7219be171ba5c50b5c21d4ff6b5cb8"}}}
