@@ -1,5 +1,14 @@
 {
   "schema_version": 1,
-  "config_version": 1,
-  "packages": []
+  "config_version": 2,
+  "packages": [
+    {
+      "key_id": "312af688718c422f9d92237a851e3b19",
+      "url": "https://wanda1416.github.io/lvjiang/member/packages/312af688718c422f9d92237a851e3b19.bin",
+      "sha256": "162b115889afb8045a0fce7d4426be9bd6d26fbee787ca56005bd3f47c9feedd",
+      "min_app_version": "0.15.0",
+      "config_version": 2,
+      "public_revisions": {}
+    }
+  ]
 }
