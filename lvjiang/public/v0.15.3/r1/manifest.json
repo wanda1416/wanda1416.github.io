@@ -1,0 +1,12 @@
+{
+  "schema_version": 2,
+  "app_series": "0.15.3",
+  "revision": 1,
+  "baseline_sha256": "181cab5e4c3b7046ecb5cb6d9a3d91aae6b0fce90c8bb7b97232a71d0f52001d",
+  "archive_sha256": "a4c834ad0412d0d0aa83f895eb84dc301b1362797f8491bce9ed8a6443cdd620",
+  "files": {
+    "workflows/daily_jianghu.wf": "66d280ccc5c6c943ca6fceb99c6925e6d15785347ec23e0347e6974ddd1b4b99"
+  },
+  "delete_files": [],
+  "ancestors": {}
+}
