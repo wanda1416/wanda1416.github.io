@@ -1,0 +1,14 @@
+{
+  "schema_version": 2,
+  "app_series": "0.15.10",
+  "revision": 1,
+  "baseline_sha256": "90c44107c35744bca8e59f32054bf50e3b0194598c1f3f69e219d516c24f817e",
+  "archive_sha256": "3b9c46ba201c3ac34e7b754558c22b96d227a8032d8454735330cceb162052bb",
+  "files": {
+    "workflows/standalone/fengsha_jiushi_night.wf": "ee1f166edad83f3169912854ae567a2845ca02641ba5b18fd0505bb3bb5dfbb7",
+    "workflows/subcall/fengsha/android.wf": "64aa79dfa2051959ada481d086f5be2f07c043ceb8b7de0a7558ddcbb6a0cba3",
+    "workflows/subcall/fengsha/desktop.wf": "c1dc40ec8f88a3ba295210e91e24bee5b6b596482facd11bd416ff13a1cc4b51"
+  },
+  "delete_files": [],
+  "ancestors": {}
+}

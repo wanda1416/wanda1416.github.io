@@ -5,6 +5,11 @@
       "revision": 1,
       "manifest": "v0.15.3/r1/manifest.json",
       "sha256": "6a66e819499f807e8625f101005ad202679b3798a18ab363e831a6ffa424f222"
+    },
+    "0.15.10": {
+      "revision": 1,
+      "manifest": "v0.15.10/r1/manifest.json",
+      "sha256": "19c4ee896aa12d97d82ad011de9b8075ed72870697bdbf901934478abd648d71"
     }
   }
 }
