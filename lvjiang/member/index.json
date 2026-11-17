@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "config_version": 4,
+  "config_version": 5,
   "packages": [
     {
       "key_id": "8b92f7a52dd44e63a5aee6fa0165dda1",
@@ -23,7 +23,17 @@
       },
       "public_manifests": {
         "0.15.10": "19c4ee896aa12d97d82ad011de9b8075ed72870697bdbf901934478abd648d71"
-      }
+      },
+      "max_app_version_exclusive": "0.15.16"
+    },
+    {
+      "key_id": "ac152a33",
+      "url": "https://wanda1416.github.io/lvjiang/member/packages/ac152a33.bin",
+      "sha256": "04f341875424eaf6e4f293d0b229ab9a1990f0b4be3c46188af38f91d6b5a96c",
+      "min_app_version": "0.15.16",
+      "config_version": 5,
+      "public_revisions": {},
+      "public_manifests": {}
     }
   ]
 }
